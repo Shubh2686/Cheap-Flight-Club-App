@@ -10,8 +10,8 @@ account_sid = "AC7e2be90f203244355ea771cddc8da87a"
 auth_token = "3815c59f184b4783f6db687dd6b01948"
 
 MAIL_PROVIDER = 'smtp.gmail.com'
-MAIL = "meditator1305@gmail.com"
-PASSWORD = "1305_meditator"
+MAIL = "your mail"
+PASSWORD = "your password"
 
 class NotificationManager:
 
@@ -22,7 +22,7 @@ class NotificationManager:
             .create(
             body=msg,
             from_='+18572675304',
-            to='+919460875512'
+            to='your number'
         )
 
         print(message.status)
